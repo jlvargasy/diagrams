@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T21:02:41.828Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="a5cn6cYuXnVWSGmBAcgz" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T21:22:04.802Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="sbRQP6zSnrE7BSYU9zy5" version="21.6.8" type="github">
   <diagram name="Página-1" id="eJ77B7gUj0XejkIEUnCr">
     <mxGraphModel dx="1434" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -202,8 +202,35 @@
         <mxCell id="lBTAzKMEYhYNqTVkXOKm-5" value="Local authentication (Optional)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBTAzKMEYhYNqTVkXOKm-7" value="*Optional authentication: depends of the level security.&lt;br&gt;The suggest is the authentication will be when execute the registry sync, because if implement local authentication is necessary to have all information of the users in local device, this scenery show a risk if the devises don&#39;t have security access&amp;nbsp;like a pattern, password, fingerprint or etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1320" width="310" height="100" as="geometry" />
+        <mxCell id="lBTAzKMEYhYNqTVkXOKm-7" value="*&lt;b&gt;Optional authentication&lt;/b&gt;: depends of the level security.&lt;br&gt;The suggest is the authentication will be when execute the registry sync, because if implement local authentication is necessary to have all information of the users in local device, this scenery show a risk if the devises don&#39;t have security access&amp;nbsp;like a pattern, password, fingerprint or other&lt;br&gt;&lt;br&gt;*Define the list of versions android and ios with support" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1280" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTAzKMEYhYNqTVkXOKm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lBTAzKMEYhYNqTVkXOKm-8" target="lBTAzKMEYhYNqTVkXOKm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTAzKMEYhYNqTVkXOKm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lBTAzKMEYhYNqTVkXOKm-8" target="lBTAzKMEYhYNqTVkXOKm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTAzKMEYhYNqTVkXOKm-8" value="Cost Model&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTAzKMEYhYNqTVkXOKm-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lBTAzKMEYhYNqTVkXOKm-10" target="lBTAzKMEYhYNqTVkXOKm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTAzKMEYhYNqTVkXOKm-10" value="Service" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1694" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTAzKMEYhYNqTVkXOKm-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lBTAzKMEYhYNqTVkXOKm-12" target="lBTAzKMEYhYNqTVkXOKm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTAzKMEYhYNqTVkXOKm-12" value="Product" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTAzKMEYhYNqTVkXOKm-18" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Include pay for month&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Application support&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Maintenance&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Infrastructure&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Database&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Cloud&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;- Certificates&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1834" width="150" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="lBTAzKMEYhYNqTVkXOKm-21" value="Only one pay&lt;br&gt;- The client is responsible to support infraestructura cloud, database,&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1830" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
